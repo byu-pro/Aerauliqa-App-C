@@ -86,23 +86,26 @@
     class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-display antialiased transition-colors duration-300 min-h-screen flex flex-col items-center justify-center p-4 sm:p-6">
     <div
         class="w-full max-w-md bg-background-light dark:bg-background-dark min-h-screen sm:min-h-[800px] sm:h-auto sm:border sm:border-gray-200 dark:sm:border-gray-800 sm:rounded-[3rem] overflow-hidden relative shadow-2xl flex flex-col">
-        <header class="pt-12 px-6 pb-4 flex justify-between items-center z-10">
-            <button
-                class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/5 transition-colors text-text-secondary-light dark:text-text-secondary-dark">
-                <span class="material-icons-round text-2xl">menu</span>
-            </button>
-            <div class="h-16 flex items-center">
-                <img alt="Aerauliqa Logo" class="h-16 w-auto block dark:hidden object-contain"
+        <!-- Logo Header -->
+        <header class="pt-8 px-6 pb-2 flex flex-col items-center z-10">
+            <div class="w-full flex justify-center mb-4">
+                <img alt="Aerauliqa Logo" class="h-20 w-auto block dark:hidden object-contain"
                     src="images/AerauliqaApp_color logo-01.svg" />
-                <img alt="Aerauliqa Logo" class="h-16 w-auto hidden dark:block object-contain"
+                <img alt="Aerauliqa Logo" class="h-20 w-auto hidden dark:block object-contain"
                     src="images/AerauliqaApp_white logo-01.svg" />
             </div>
-            <button
-                class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/5 transition-colors text-text-secondary-light dark:text-text-secondary-dark relative">
-                <span class="material-icons-round text-2xl">notifications_none</span>
-                <span
-                    class="absolute top-2 right-2.5 w-2 h-2 bg-red-500 rounded-full border-2 border-background-light dark:border-background-dark"></span>
-            </button>
+            <div class="w-full flex justify-between items-center">
+                <button
+                    class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/5 transition-colors text-text-secondary-light dark:text-text-secondary-dark">
+                    <span class="material-icons-round text-2xl">menu</span>
+                </button>
+                <button
+                    class="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-white/5 transition-colors text-text-secondary-light dark:text-text-secondary-dark relative">
+                    <span class="material-icons-round text-2xl">notifications_none</span>
+                    <span
+                        class="absolute top-2 right-2.5 w-2 h-2 bg-red-500 rounded-full border-2 border-background-light dark:border-background-dark"></span>
+                </button>
+            </div>
         </header>
         <main class="flex-1 overflow-y-auto px-6 pb-24 scrollbar-hide">
             <div class="mt-2 mb-6">
